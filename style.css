@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+header {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.firsth {
+    display: inline-block;
+    font-weight: 600px;
+    font-size: 16px;
+    color: #282828;
+}
+.secondh {
+    display: inline-block;
+    font-weight:600;
+    font-size: 54px;
+    margin-top: 12px;
+}
+.hdesc {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 20px;
+    color: #5F6980;
+    text-align: center;
+    margin-top: 22px;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 52px;
+}
+.team {
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#EAECF0;
+}
+.name {
+    font-size: 18px;
+    color: #282828;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: 12px;
+}
+.pro {
+    font-weight: 400;
+    font-size: 14px;
+    color: #3E3E59;
+    margin-top: 7px;
+    margin-left: 12px;
+}
+.desc {
+    font-weight: 400;
+    font-size: 14px;
+    color: #3E3E59;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+.links {
+    display: inline-block;
+    margin-left: 12px;
+    margin-top: 20px;
+}
+.teamlinks {
+   margin-left: 16px;
+}
+footer {
+    background-color: #53535354;
+    margin-top: 56px;
+    padding-top: 108px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-bottom: 108px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ftrblck1 {
+    display: inline-block;
+}
+.ftrblck1 p {
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #535353;
+}
+.footerlinks {
+    margin-left: 8px;
+}
+.websitelinks {
+    display: inline-block;
+    color: #535353;
+}
+.websitelinks h3 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #1E1E1E;
+    margin-bottom: 50px;
+}
+.websitelinks .link {
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 25px;
+}
+.services {
+    display: inline-block;
+}
+.services h3 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #1E1E1E;
+    margin-bottom: 50px;
+}
+.services .serlink {
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 25px
+}
+.languages {
+    display: flex;
+    flex-direction: column;
+}
+.languages .langh {
+    font-weight: 600;
+    font-size: 20px;
+    color: #1E1E1E;
+    margin-bottom: 130px;
+}
+.languages .langbutton {
+    background-color: #054A68;
+    height: 45px;
+    width: 80px;
+}
+.languages .langbutton span {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+}
